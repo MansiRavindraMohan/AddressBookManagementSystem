@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 namespace AddressBookManagementSystem
 {
     public class AddressProgram
+    {
+        public static void DataofPerson()
         {
-            public static void AddDetails()
-            {
             Console.WriteLine("Please Enter your Firstname:");
             string str1 = "Firstname";
             str1 = Console.ReadLine();
@@ -64,10 +64,11 @@ namespace AddressBookManagementSystem
             Console.WriteLine("Phone Number you entered: " + valueString7);
             Console.WriteLine("Email you entered: " + valueString8);
 
-            }
-
+        }
     }
 }
+
+
 
 
        
