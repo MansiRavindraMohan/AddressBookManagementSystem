@@ -8,10 +8,12 @@ namespace AddressBookManagementSystem
         {
             //Console.WriteLine("Welcome to Address Book Management System Program");
 
-            NewContact contact1 = new NewContact();
+            EditContact person = new EditContact();
 
-            contact1.NewDetails();
-            contact1.ListOfPeople();
+            person.NewDetails();
+           
+            person.editContact();
+            person.ListOfPeople();
         }
     }
 }
