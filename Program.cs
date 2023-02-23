@@ -8,7 +8,10 @@ namespace AddressBookManagementSystem
         {
             //Console.WriteLine("Welcome to Address Book Management System Program");
 
-            AddressProgram contact = new AddressProgram("Mansi", "Mohan", "abcde", "france", 12345, "MH", 12345678, "abcde@fgh.com");
+            NewContact contact1 = new NewContact();
+
+            contact1.NewDetails();
+            contact1.ListOfPeople();
         }
     }
 }
